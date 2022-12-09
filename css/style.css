@@ -1,0 +1,52 @@
+.slide img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.arrow {
+    width: 40px;
+    height: 40px;
+    background-color:chocolate;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+}
+.slider-wraper {
+    position: relative;
+}
+.arrow-left {   
+    left: 30px;
+}
+.arrow-right {
+    right: 30px;
+}
+.dotParent {
+    display: flex;
+    position: absolute;
+    left :50% ;
+    transform: translate(-50%);
+    bottom: 30px;
+}
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+.activeDot {
+    background-color:chocolate; 
+}
+
+.bg-image {
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
